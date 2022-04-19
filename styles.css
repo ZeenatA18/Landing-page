@@ -38,23 +38,24 @@ nav ul{
     margin-right: 20px;
 }
 
-nav ul li{
+nav ul a{
     display: inline-block;
-    line-height: 80px;
+    line-height: 60px;
     margin: 0 5px;
 }
 
-nav ul li a{
+nav ul a{
     color: #000;
     font-size: 17px;
     text-transform: uppercase;
-    padding: 7px 13px;
+    padding: 10px 13px;
     border-radius: 3px;
 }
 
 a:hover{
     background: aquamarine;
     transform: 0.5s;
+    padding: 5px;
 }
 
 .Welcome{
@@ -79,20 +80,28 @@ a:hover{
     margin-right: 40px;
 } */
 
+@media screen and (min-width:960px ){
+
+    
+}
+
 @media screen and (max-width: 688px){
     
     label.name{
         color: white;
-        font-size: 35px;
-        line-height: 150px;
-        padding: 20px;
+        font-size: 30px;
+        line-height: 60px;
+        padding: 10px;
         font-weight: bold;
+        /* margin-left: 130px; */
     }
 
-    nav ul li{
-        display: inline-block;
-        line-height: 80px;
-        margin: 0 5px;
+    .navbar {
+       display: flex;
     }
     
+    .Welcome{
+        margin-top: 150px;
+        padding: 20px;
+    }
 }
