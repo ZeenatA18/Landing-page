@@ -73,7 +73,6 @@ a:hover{
     margin-top: 100px; 
 }
 
-
 @media screen and (min-width:960px ){
 
     
@@ -87,7 +86,6 @@ a:hover{
         line-height: 60px;
         padding: 10px;
         font-weight: bold;
-        /* margin-left: 130px; */
     }
 
     .navbar {
